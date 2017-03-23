@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta http-equiv="Content-Language" content="es"><link rel="alternate" i18n="en" href="/es/2016/04/20/Polyglot-1.2.0/" />
-<link rel="alternate" i18n="es" href="/es/es/2016/04/20/Polyglot-1.2.0/" />
+  <meta http-equiv="Content-Language" content="es"><link rel="alternate" i18n="en" href="/es/talk-text-remote/" />
+<link rel="alternate" i18n="es" href="/es/es/talk-text-remote/" />
 
   <title>
     
-      Polyglot 1.2.0 &middot; Red<br/>Ninja<br/>Studio
+      Talk Text Control Remoto &middot; Red<br/>Ninja<br/>Studio
     
   </title>
 
@@ -95,7 +95,7 @@
         
         
           
-            <a class="sidebar-nav-item" href="/es/talk-text-remote/">Talk Text Control Remoto</a>
+            <a class="sidebar-nav-item active" href="/es/talk-text-remote/">Talk Text Control Remoto</a>
           
           
         
@@ -118,9 +118,9 @@
     <p>&copy; 2017. All rights reserved.</p>
 <p>
   
-<a  href=" /2016/04/20/Polyglot-1.2.0/ ">en</a> |
+<a  href=" /talk-text-remote/ ">en</a> |
   
-<a style="font-weight: bold;" href=" /es/2016/04/20/Polyglot-1.2.0/ ">es</a> |
+<a style="font-weight: bold;" href=" /es/talk-text-remote/ ">es</a> |
   
 </p>
   </div>
@@ -128,70 +128,18 @@
 
 
     <div class="content container">
-      <div class="post">
-  <h1 class="post-title">Polyglot 1.2.0</h1>
-  <span class="post-date">20 Apr 2016</span>
-  <p>Una nueva versión de Políglota ha sido puesto en libertad! ¡Darle una oportunidad!</p>
+      <div class="page">
+  <h1 class="page-title">Talk Text Control Remoto</h1>
+  <p class="message">
+  <b>Polyglot</b> is an open source internationalization plugin for <a href="http://jekyllrb.com">Jekyll</a> blogs. Polyglot is easy to setup and use with any project, and it scales to the languages you want to support. With fallback support for missing content, automatic url relativization, and <a href="/es/seo/">powerful SEO recipes</a>, Polyglot allows any multi-language blog to focus on content without the cruftwork.
+</p>
 
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">gem install jekyll-polyglot</span></code></pre></figure>
+<p><a href="https://github.com/untra/polyglot"><strong>Polyglot Github Page</strong></a></p>
 
-<p>y la lista de <code>Jekyll-polyglot</code> entre sus gemas que aparecen en su<code>_config.yml</code></p>
+<p><strong>Install</strong></p>
 
-<p>Se trata en su mayoría bases para prepararse para nuevas características y una mejor gestión de contenidos multilingües. Se tiene una nueva característica:</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">gem install jekyll-polyglot</code></pre></figure>
 
-<h2>{% I18n_Headers %}</h2>
-
-<p>Ponga esta etiqueta con la <a href="https://github.com/untra/polyglot/blob/site/_includes/head.html#L6">URL de su sitio web</a> en su <code>head.html</code> incluye archivos para obtener el máximo previsto por SEO tener un sitio web multilingüe. Es el mismo que el siguiente código de líquido:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"Content-Language"</span> <span class="na">content=</span><span class="s">"{{site.active_lang}}"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"alternate"</span>
-      <span class="na">hreflang=</span><span class="s">"{{site.default_lang}}"</span>
-      <span class="na">href=</span><span class="s">"http://yoursite.com{{page.permalink}}"</span> <span class="nt">/&gt;</span>
-{% for lang in site.languages %}
-{% if lang == site.default_lang %}
-  {% continue %}
-{% endif %}
-<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"alternate"</span>
-    <span class="na">hreflang=</span><span class="s">"{{lang}}"</span>
-    <span class="na">href=</span><span class="s">"http://yoursite.com/{{lang}}{{page.permalink}}"</span> <span class="nt">/&gt;</span>
-{% endfor %}</code></pre></figure>
-
-<p>En su cabecera, pero más rápido y más limpio! Para obtener más información, <a href="/es/seo">ver la página</a></p>
-
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/es/2015/11/14/polyglot-version-1-1/">
-            Polyglot Version 1.1.0
-            <small>14 Nov 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/es/2015/09/19/presenting-polyglot/">
-            Introduciendo Polyglot
-            <small>19 Sep 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/es/2013/12/28/introducing-hyde/">
-            Introducing Hyde
-            <small>28 Dec 2013</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
 </div>
 
     </div>
