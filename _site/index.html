@@ -13,7 +13,7 @@
 
   <title>
     
-      Red Ninja Studio &middot; Straightforward I18n for Jekyll Blogs
+      Polyglot &middot; Straightforward I18n for Jekyll Blogs
     
   </title>
 
@@ -43,7 +43,7 @@
     </br>
       <h1>
         <a href="">
-          Red Ninja Studio
+          Polyglot
         </a>
       </h1>
       <p class="lead">A i18n support plugin for <a href="http://jekyllrb.com" target="_blank">Jekyll</a> that makes multi-language support fast and intuitive, for blogs big and small. Made by <a href="https://github.com/untra" target="_blank">@untra</a>.</p>
@@ -80,7 +80,7 @@
         
         
           
-            <a class="sidebar-nav-item" href="/sample/">Sample rich text data</a>
+            <a class="sidebar-nav-item" href="/sample/">Sample data</a>
           
           
         
@@ -93,19 +93,11 @@
           
         
       
-        
-        
-      
-        
-        
-      
-        
-          
       <a class="sidebar-nav-item" href=""></a>
 
       <a class="sidebar-nav-item" href="https://rubygems.org/gems/jekyll-polyglot">Ruby Gem</a>
-      <a class="sidebar-nav-item" href="https://github.io/redninjastudio/redninjastudio.github.io">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v1.2.4</span>
+      <a class="sidebar-nav-item" href="https://github.com/untra/polyglot">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v1.2.2</span>
     </nav>
 
     <p>&copy; 2017. All rights reserved.</p>
@@ -129,45 +121,6 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2016/12/16/Polyglot-1.2.4/">
-        Polyglot 1.2.4
-      </a>
-    </h1>
-
-    <span class="post-date">16 Dec 2016</span>
-
-    <p>A new version of Polyglot has been released! Give it a try!</p>
-
-<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">gem install jekyll-polyglot</span></code></pre></figure>
-
-<p>This release was made possible due to the kind support of github user <a href="https://github.com/vlsi">vlsi</a>, who helped fix a few bugs and added new features:</p>
-
-<h3 id="support-translation-of-absolute-urls">Support translation of absolute URLs</h3>
-<p>Polyglot will now translate your <code class="highlighter-rouge">site.url</code>, so absolute urls will now get translated as well.</p>
-
-<h3 id="translation-of-all-jekyll-collections">Translation of all Jekyll Collections</h3>
-<p><a href="https://jekyllrb.com/docs/collections/">Jekyll collections</a> are a fairly new feature. This update translates all registered collections, not just site posts and pages.</p>
-
-<h3 id="use-language-specific-data-for-sitedata-rich-text-when-sitedatalang-is-present">Use language-specific <code class="highlighter-rouge">_data</code> for <code class="highlighter-rouge">site.data</code> rich text when <code class="highlighter-rouge">site.data[:lang]</code> is present</h3>
-<p>Top level rich text organized by language will be assigned to the site.data when building. Before, when rendering rich text, you would have to use:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{{ site.data[site.active_lang].richTextString }}</code></pre></figure>
-
-<p>Now rich text can be rendered with just:</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{{ site.data.richTextString }}</code></pre></figure>
-
-<h3 id="the-i18nheaders-tag-now-defaults-to-siteurl-when-left-blank">The <code class="highlighter-rouge">I18n_Headers</code> tag now defaults to <code class="highlighter-rouge">site.url</code> when left blank</h3>
-<p>Users can now use</p>
-
-<figure class="highlight"><pre><code class="language-html" data-lang="html">{% I18n_Headers %}</code></pre></figure>
-
-<p>without specifying a url, defaulting it to your <code class="highlighter-rouge">site.url</code></p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
       <a href="/2016/04/20/Polyglot-1.2.0/">
         Polyglot 1.2.0
       </a>
@@ -179,13 +132,13 @@
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">gem install jekyll-polyglot</span></code></pre></figure>
 
-<p>and list <code class="highlighter-rouge">jekyll-polyglot</code> among your listed gems in your <code class="highlighter-rouge">_config.yml</code></p>
+<p>and list <code>jekyll-polyglot</code> among your listed gems in your <code>_config.yml</code></p>
 
 <p>It involves mostly groundwork to prepare for new features and better multilingual content management. It does have a new feature:</p>
 
-<h2 id="i18nheaders-">{% I18n_Headers %}</h2>
+<h2>{% I18n_Headers %}</h2>
 
-<p>Put this tag with the <a href="https://github.com/untra/polyglot/blob/site/_includes/head.html#L6">url of your website</a> in your <code class="highlighter-rouge">head.html</code> includes file to get the maximum SEO provided by having a multilingual website. It’s the same as the following liquid code:</p>
+<p>Put this tag with the <a href="https://github.com/untra/polyglot/blob/site/_includes/head.html#L6">url of your website</a> in your <code>head.html</code> includes file to get the maximum SEO provided by having a multilingual website. It&#39;s the same as the following liquid code:</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"Content-Language"</span> <span class="na">content=</span><span class="s">"{{site.active_lang}}"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"alternate"</span>
@@ -217,7 +170,6 @@
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">gem 'jekyll-polyglot', '~&gt; 1.1.0'</span></code></pre></figure>
 
-
   </div>
   
   <div class="post">
@@ -231,27 +183,27 @@
 
     <p>After months of work and refinement, I am proud to present <strong>Polyglot</strong>: a i18n plugin for <a href="http://jekyllrb.com">Jekyll</a> sites that <em>need</em> to cater their content to multiple languages and audiences.</p>
 
-<h3 id="features">Features</h3>
+<h3>Features</h3>
 
 <p>While there are other multi-language plugins for Jekyll, Polyglot is special. Polyglot takes care of the typical cruftwork normally left to developers to manage (such as wrangling urls and ensuring consistent sitemaps) while providing efficient and simple tools Jekyll developers can utilize into SEO and fast-tracked content aggregation.</p>
 
-<h2 id="relativized-links">Relativized Links</h2>
+<h2>Relativized Links</h2>
 
 <p>In the past, a multi-language static site or blog had to keep delicate track of what language each relative link the site was serving. It was all too easy for a developer to stumble, and foreign language visitors would quickly get lost in untranslated content.</p>
 
 <p>Polyglot automatically relativizes the urls for each language you want your site to build for. This allows website visitors to stay isolated on one language while browsing your website.</p>
 
-<h2 id="fallback-support">Fallback Support</h2>
+<h2>Fallback Support</h2>
 
-<p>When you <em>don’t</em> have translated or multilingual content, Jekyll will still build with the content you do have. When you <em>do</em> have translated or multilingual content, Jekyll will build using that content. Simple as that.</p>
+<p>When you <em>don&#39;t</em> have translated or multilingual content, Jekyll will still build with the content you do have. When you <em>do</em> have translated or multilingual content, Jekyll will build using that content. Simple as that.</p>
 
 <p>Sitemaps stay consistent across all languages, and translated stays in the site it was built for.</p>
 
-<h2 id="rich-content-translation">Rich Content Translation</h2>
+<h2>Rich Content Translation</h2>
 
 <p>Rich language content is normally hard to implement. Short strings or language dependent banners are typically hard for a Jekyll website to keep consistent.</p>
 
-<p><em>Except when it’s this easy</em>. In your config.yml, just store your strings as:</p>
+<p><em>Except when it&#39;s this easy</em>. In your config.yml, just store your strings as:</p>
 
 <figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="s">hello</span><span class="pi">:</span>
   <span class="s">en</span><span class="pi">:</span> <span class="s">Hello!</span>
@@ -263,22 +215,21 @@
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html">{{ site.hello[site.active_lang]}}</code></pre></figure>
 
-<p>produces:</p>
+<p>produces:
 <p class="message">
 Hello!
-</p>
+</p></p>
 
-<h2 id="fast-asynchronous-zero-overhead-builds">Fast, Asynchronous, Zero-Overhead Builds</h2>
+<h2>Fast, Asynchronous, Zero-Overhead Builds</h2>
 
-<p>Polyglot will build your multi-language website just as fast as it will build your default language website. Polyglot runs with a minimal overhead by <em>simultaneously</em> building all languages of your website as separate process. This means your website build time won’t be a function of how many languages you need to support.</p>
+<p>Polyglot will build your multi-language website just as fast as it will build your default language website. Polyglot runs with a minimal overhead by <em>simultaneously</em> building all languages of your website as separate process. This means your website build time won&#39;t be a function of how many languages you need to support.</p>
 
-<h3 id="download">Download</h3>
+<h3>Download</h3>
 
 <p>Polyglot is available as a gem, or as a Jekyll plugin. It can be installed with:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">  gem install <span class="s1">'jekyll-polyglot'</span>
   </code></pre></figure>
-
 
   </div>
   
@@ -291,38 +242,38 @@ Hello!
 
     <span class="post-date">28 Dec 2013</span>
 
-    <p>Hyde is a brazen two-column <a href="http://jekyllrb.com">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. It’s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
+    <p>Hyde is a brazen two-column <a href="http://jekyllrb.com">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. It&#39;s based on <a href="http://getpoole.com">Poole</a>, the Jekyll butler.</p>
 
-<h3 id="built-on-poole">Built on Poole</h3>
+<h3>Built on Poole</h3>
 
 <p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Hyde here) includes the following:</p>
 
 <ul>
-  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
-  <li>Mobile friendly design and development</li>
-  <li>Easily scalable text and component sizing with <code class="highlighter-rouge">rem</code> units in the CSS</li>
-  <li>Support for a wide gamut of HTML elements</li>
-  <li>Related posts (time-based, because Jekyll) below each post</li>
-  <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
+<li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+<li>Mobile friendly design and development</li>
+<li>Easily scalable text and component sizing with <code>rem</code> units in the CSS</li>
+<li>Support for a wide gamut of HTML elements</li>
+<li>Related posts (time-based, because Jekyll) below each post</li>
+<li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
 </ul>
 
-<h3 id="hyde-features">Hyde features</h3>
+<h3>Hyde features</h3>
 
 <p>In addition to the features of Poole, Hyde adds the following:</p>
 
 <ul>
-  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
-  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
-  <li><a href="https://github.com/poole/hyde#themes">Eight optional color schemes</a>, available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+<li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+<li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code>&lt;body&gt;</code> classes</li>
+<li><a href="https://github.com/poole/hyde#themes">Eight optional color schemes</a>, available via <code>&lt;body&gt;</code> classes</li>
 </ul>
 
 <p><a href="https://github.com/poole/hyde#readme">Head to the readme</a> to learn more.</p>
 
-<h3 id="browser-support">Browser support</h3>
+<h3>Browser support</h3>
 
 <p>Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
 
-<h3 id="download">Download</h3>
+<h3>Download</h3>
 
 <p>Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.</p>
 
@@ -330,11 +281,32 @@ Hello!
 
   </div>
   
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2012/02/06/whats-jekyll/">
+        What's Jekyll?
+      </a>
+    </h1>
+
+    <span class="post-date">06 Feb 2012</span>
+
+    <p><a href="http://jekyllrb.com">Jekyll</a> is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From <a href="https://github.com/mojombo/jekyll/blob/master/README.markdown">the project&#39;s readme</a>:</p>
+
+<blockquote>
+<p>Jekyll is a simple, blog aware, static site generator. It takes a template directory [...] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.</p>
+</blockquote>
+
+<p>It&#39;s an immensely useful tool and one we encourage you to use here with Hyde.</p>
+
+<p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
+
+  </div>
+  
 </div>
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="page2">Older</a>
+    <span class="pagination-item older">Older</span>
   
   
     <span class="pagination-item newer">Newer</span>
