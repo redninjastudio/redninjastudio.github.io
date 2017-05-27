@@ -35,8 +35,9 @@ The motivation of special permissions requested in the applications:
 • Talk Text (Read Aloud) => android.permission.BIND_DEVICE_ADMIN
 
 Talk Text requests permission in order to lock the screen automatically when it
-starts to read the text. The application requests the permission when the user
-activates this option, and the user can revoke the permission at any time.
+starts to read the text (option Auto -> Screen Lock). The application requests 
+the permission when the user activates this option, and the user can revoke the
+permission at any time.
 
 For questions and information about privacy policy and the rights of the
 interested party, please contact us through the email address
