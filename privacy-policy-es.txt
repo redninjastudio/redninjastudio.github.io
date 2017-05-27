@@ -1,0 +1,50 @@
+Última Actualización: 2017-05-27
+
+Política de Privacidad de RED NINJA STUDIO
+
+RED NINJA STUDIO no recopila, almacena o utiliza ninguna información personal
+excepto la reopilada por los servicios "Analytics" de Google, Firebase y Fabric.
+Tampoco extrae dicha información fuera de dichos servicios de ninguna forma,
+salvo informes que produzcan estos servicios en los que de ninguna forma pueda
+relacionarse cualquier dato con un usuario concreto.
+
+RED NINJA STUDIO emplea la tecnología de inserción de publicidad de terceros
+(Admob, Amazon Ads y TAPPX) que recopilan y usan información demográfica y de
+localización geográfica, datos registrados en su hardware, dispositivo o sistema
+operativo, para asegurarse que el servicio le ofrece la publicidad adecuada.
+Estos servicios podrán mostrar publicidad según su comportamiento. Si no desea
+que se le muestre publicidad de esta forma, por favor no utilice o acceda a los
+Servicios.
+
+RED NINJA STUDIO puede usar los datos de ubicación que proporcionan los
+servicios de tipo Analytics para realizar promociones, siempre de forma
+automática y desatendida.
+
+Adicionalmente usted podrá proporcionar voluntariamente datos mediante email
+para informar de un problema y facilitar la búsqueda de una solución. Esta
+información no será compartida con ningún tercero y podrá borrarla en cualquier
+momento solicitandolo mediente email, salvo en los casos que ello pudiera
+contravenir la ley.
+
+Todas las aplicaciones y servicios de RED NINJA STUDIO se rigen por esta
+Política de Privacidad. Por favor, no instale la aplicaciones o utilice los
+Servicios si no está de acuerdo con esta Política de Privacidad.
+
+RED NINJA STUDIO sigue las normas generalmente aceptadas de la industria y
+mantiene protecciones razonables para intentar garantizar la seguridad,
+integridad y privacidad de la información en posesión de RED NINJA STUDIO.
+
+Motivación de permisos especiales solicitados en las aplicaciones:
+
+• Talk Text (Texto A Voz) => android.permission.BIND_DEVICE_ADMIN
+
+Talk Text solicita el permiso con el fin de bloquear la pantalla de forma
+automática al comenzar la lectura de texto. La aplicación solicita dicho permiso
+cuando el usuario activa esta opción y pudiendo el usuario revocar el permiso en
+cualquier momento.
+
+Para preguntas e información sobre política de privacidad y los derechos del
+interesado, por favor, póngase en contacto con nosotros a través de la dirección
+de email redninjastudio.info@gmail.com o de la página web
+https://redninjastudio.github.io
+

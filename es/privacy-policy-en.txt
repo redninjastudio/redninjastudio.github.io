@@ -1,0 +1,43 @@
+Last Update: 2017-05-27
+
+RED NINJA STUDIO Privacy Policy
+
+RED NINJA STUDIO does not collect, store or use any personal information except
+for the "Analytics" services of Google, Firebase and Fabric. Neither does it
+extract such information outside those services in any way, except reports that
+produce these services which can not in any way be related to any specific user.
+
+RED NINJA STUDIO employs ad insertion technology from Admob, Amazon Ads and
+TAPPX, that collect and use demographic and geographic location information,
+data recorded on your hardware, device or operating system to ensure that the
+service offers you the right publicity. These services may show advertising
+according to your behaviour. If you do not wish to be shown advertising in this
+way, please do not use or access the Services.
+
+RED NINJA STUDIO can use location data provided by Analytics services for
+promotions, always in an automatic and unattended way.
+
+In addition, you may voluntarily provide information by Email to report a
+problem and facilitate the search for a solution. This information will not be
+shared with any third party and may be deleted at any time by requesting for it
+by email, except in those cases that it could be against the law.
+
+All RED NINJA STUDIO applications and services are governed by this Privacy
+Policy. Please do not install the applications or use The Services if you do not
+agree with this Privacy Policy.
+
+RED NINJA STUDIO follows the generally accepted standards of Industry and
+maintains reasonable protections to try to ensure The security, integrity and
+privacy of the information in the possession of RED NINJA STUDIO.
+
+The motivation of special permissions requested in the applications:
+
+• Talk Text (Read Aloud) => android.permission.BIND_DEVICE_ADMIN
+
+Talk Text requests permission in order to lock the screen automatically when it
+starts to read the text. The application requests the permission when the user
+activates this option, and the user can revoke the permission at any time.
+
+For questions and information about privacy policy and the rights of the
+interested party, please contact us through the email address
+redninjastudio.info@gmail.com or the website https://redninjastudio.github.io
