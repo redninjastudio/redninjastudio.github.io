@@ -1,0 +1,3 @@
+3db8ba3e15b43df6963128d6e1290d58  talk-text-remote-0.0.6.exe
+b34ce3584625c307ea95bdaa92918306  talk-text-remote-0.0.6.msi
+e3d5a5d58435472e26b19e54262076f5  talk-text-remote-0.0.6.deb
